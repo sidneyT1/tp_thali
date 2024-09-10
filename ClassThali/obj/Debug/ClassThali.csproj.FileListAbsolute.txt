@@ -44,3 +44,9 @@ C:\Users\truchet\Desktop\TP01_THALI\ClassThali\obj\Debug\ClassThali.csproj.Assem
 C:\Users\truchet\Desktop\TP01_THALI\ClassThali\obj\Debug\ClassThali.csproj.CoreCompileInputs.cache
 C:\Users\truchet\Desktop\TP01_THALI\ClassThali\obj\Debug\ClassThali.dll
 C:\Users\truchet\Desktop\TP01_THALI\ClassThali\obj\Debug\ClassThali.pdb
+C:\Users\sidne\Desktop\tp_thali\ClassThali\bin\Debug\ClassThali.dll
+C:\Users\sidne\Desktop\tp_thali\ClassThali\bin\Debug\ClassThali.pdb
+C:\Users\sidne\Desktop\tp_thali\ClassThali\obj\Debug\ClassThali.csproj.AssemblyReference.cache
+C:\Users\sidne\Desktop\tp_thali\ClassThali\obj\Debug\ClassThali.csproj.CoreCompileInputs.cache
+C:\Users\sidne\Desktop\tp_thali\ClassThali\obj\Debug\ClassThali.dll
+C:\Users\sidne\Desktop\tp_thali\ClassThali\obj\Debug\ClassThali.pdb

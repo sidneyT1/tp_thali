@@ -52,9 +52,13 @@ namespace ClassThali.Tests
             MiniExcursion me = new MiniExcursion(1, "abc", 20);
             MiniExcursionPlanifiee mep = new MiniExcursionPlanifiee("1", me, DateTime.Parse("12:00"));
 
-            me.AjouteEtape("abc", 20);
+            Assert.AreEqual(DateTime.Parse("12:00"), mep.HeureRetourPrevue(), "aucune étapes enregistrées donc temps de départ reste le même");
 
-            Assert.AreEqual(20, mep.HeureRetourPrevue(), "20");
+            me.AjouteEtape("abc", 20);
+            me.AjouteEtape("peterbot", 40);
+            me.AjouteEtape("cringe", 81);
+
+            Assert.AreEqual(DateTime.Parse("14:21"), mep.HeureRetourPrevue(), "ajout du temps des étapes sur l'heure de départ");
 
         }
     }
