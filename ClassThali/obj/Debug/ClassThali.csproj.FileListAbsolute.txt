@@ -38,3 +38,9 @@ C:\Users\sophi\Desktop\Annee2022-2023\B2_SLAM_SIO2\TP\01TP_POO_C#\THALI\Etud_Sol
 C:\Users\sophi\Desktop\Annee2022-2023\B2_SLAM_SIO2\TP\01TP_POO_C#\THALI\Etud_SolutionThali\ClassThali\obj\Debug\ClassThali.csproj.CoreCompileInputs.cache
 C:\Users\sophi\Desktop\Annee2022-2023\B2_SLAM_SIO2\TP\01TP_POO_C#\THALI\Etud_SolutionThali\ClassThali\obj\Debug\ClassThali.dll
 C:\Users\sophi\Desktop\Annee2022-2023\B2_SLAM_SIO2\TP\01TP_POO_C#\THALI\Etud_SolutionThali\ClassThali\obj\Debug\ClassThali.pdb
+C:\Users\truchet\Desktop\TP01_THALI\ClassThali\bin\Debug\ClassThali.dll
+C:\Users\truchet\Desktop\TP01_THALI\ClassThali\bin\Debug\ClassThali.pdb
+C:\Users\truchet\Desktop\TP01_THALI\ClassThali\obj\Debug\ClassThali.csproj.AssemblyReference.cache
+C:\Users\truchet\Desktop\TP01_THALI\ClassThali\obj\Debug\ClassThali.csproj.CoreCompileInputs.cache
+C:\Users\truchet\Desktop\TP01_THALI\ClassThali\obj\Debug\ClassThali.dll
+C:\Users\truchet\Desktop\TP01_THALI\ClassThali\obj\Debug\ClassThali.pdb
