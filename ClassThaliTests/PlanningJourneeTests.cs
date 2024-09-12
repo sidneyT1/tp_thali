@@ -30,7 +30,7 @@ namespace ClassThali.Tests
             mep1.SetNombreInscrits(4);
            
             
-            Assert.AreEqual(60, pla.CalculerRecette(), "après set");
+            Assert.AreEqual(60, pla.CalculerRecette(), "aprèes set");
 
 
         }
