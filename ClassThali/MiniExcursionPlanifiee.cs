@@ -38,6 +38,13 @@ namespace ClassThali
             return this.code;
         }
 
+
+       
+       public MiniExcursion GetLaMe()
+       {
+            return this.laMiniExcursion;
+       }
+
         public int GetNombreInscrits() 
         { 
             return nombreInscrits;

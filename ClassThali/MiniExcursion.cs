@@ -12,6 +12,7 @@ namespace ClassThali
         private int numero;
         private string libelle;
         private int nombrePlaces;
+        private double montantParticipation;
         private List<Etape> lesEtapes;  // contient les étapes constituant la mini-excursion 
 
 
@@ -26,9 +27,17 @@ namespace ClassThali
             this.numero = unNumero;
             this.libelle = unLibelle;
             this.nombrePlaces = unNombre;
+            
             this.lesEtapes = new List<Etape>();
 	    }
-            
+        public MiniExcursion(int unNumero, string unLibelle, int unNombre, double unMontant)
+        {
+            this.numero = unNumero;
+            this.libelle = unLibelle;
+            this.nombrePlaces = unNombre;
+            this.montantParticipation = unMontant;
+            this.lesEtapes = new List<Etape>();
+        }
 
         /// <summary>
         /// Retourne le nombre de places maxi de la mini-excursion
@@ -37,6 +46,17 @@ namespace ClassThali
         public int GetNombrePlaces()
         {
             return this.nombrePlaces;
+        }
+
+        public void SetMontantParticipation(double unMontant)
+        {
+            this.montantParticipation += unMontant;
+        }
+
+        public double GetMontantParticipation()
+        {
+            return montantParticipation;
+
         }
 
         /// <summary>

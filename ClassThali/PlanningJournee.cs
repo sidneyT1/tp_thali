@@ -21,6 +21,21 @@ namespace ClassThali
             this.lesMiniExcursionsPlanifiees = new List<MiniExcursionPlanifiee>();
         }
          
-       
+       public double CalculerRecette()
+       {
+            double somme = 0;
+            
+            foreach(MiniExcursionPlanifiee MEP in this.lesMiniExcursionsPlanifiees) 
+            {
+                double montantParticipation = MEP.GetLaMe().GetMontantParticipation();
+                somme = montantParticipation * MEP.GetNombreInscrits();
+            }
+
+            return somme;
+
+            
+
+
+       }
     } 
 }
