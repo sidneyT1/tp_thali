@@ -58,7 +58,7 @@ namespace ClassThali.Tests
             me.AjouteEtape("peterbot", 40);
             me.AjouteEtape("cringe", 81);
 
-            Assert.AreEqual(DateTime.Parse("14:21"), mep.HeureRetourPrevue(), "ajout du temps des étapes sur l'heure de départ");
+            Assert.AreEqual(DateTime.Parse("14:21"), mep.HeureRetourPrevue(), "ajout du temps des étapes sur l'heure de départt");
 
         }
     }
