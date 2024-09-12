@@ -28,14 +28,19 @@ namespace ClassThali
             foreach(MiniExcursionPlanifiee MEP in this.lesMiniExcursionsPlanifiees) 
             {
                 double montantParticipation = MEP.GetLaMe().GetMontantParticipation();
-                somme = montantParticipation * MEP.GetNombreInscrits();
+                somme += montantParticipation * MEP.GetNombreInscrits();
+               
             }
-
             return somme;
 
             
 
 
        }
+
+        public void AjouterMiniExcursionPlanifiee(MiniExcursionPlanifiee mep)
+        {
+            this.lesMiniExcursionsPlanifiees.Add(mep);
+        }
     } 
 }

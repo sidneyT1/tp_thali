@@ -18,7 +18,7 @@ namespace ClassThali.Tests
         [TestMethod()]
         public void SetNombreInscritsTest()
         {
-            MiniExcursion me = new MiniExcursion(1, "abc", 20);
+            MiniExcursion me = new MiniExcursion(1, "abc", 20, 2);
             MiniExcursionPlanifiee mep = new MiniExcursionPlanifiee("1", me, DateTime.Parse("12:00"));
 
             Assert.AreEqual(0, mep.GetNombreInscrits(), "20");
@@ -32,7 +32,7 @@ namespace ClassThali.Tests
         [TestMethod()]
         public void EstCompleteTest()
         {
-            MiniExcursion me = new MiniExcursion(1, "abc", 20);
+            MiniExcursion me = new MiniExcursion(1, "abc", 20, 2);
             MiniExcursionPlanifiee mep = new MiniExcursionPlanifiee("1", me, DateTime.Parse("12:00"));
 
             Assert.AreEqual(false, mep.EstComplete(), "");
@@ -49,7 +49,7 @@ namespace ClassThali.Tests
         [TestMethod()]
         public void HeureRetourPrevueTest()
         {
-            MiniExcursion me = new MiniExcursion(1, "abc", 20);
+            MiniExcursion me = new MiniExcursion(1, "abc", 20, 2);
             MiniExcursionPlanifiee mep = new MiniExcursionPlanifiee("1", me, DateTime.Parse("12:00"));
 
             Assert.AreEqual(DateTime.Parse("12:00"), mep.HeureRetourPrevue(), "aucune étapes enregistrées donc temps de départ reste le même");

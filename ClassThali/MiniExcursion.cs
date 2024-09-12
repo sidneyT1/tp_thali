@@ -22,14 +22,7 @@ namespace ClassThali
         /// <param name="unNumero">numero de la mini-excursion</param>
         /// <param name="unLibelle">libelle de la mini-excursion</param>
         /// <param name="unNombre">nombre de places maxi de la mini-excursion</param>
-        public MiniExcursion(int unNumero, string unLibelle, int unNombre)
-        {
-            this.numero = unNumero;
-            this.libelle = unLibelle;
-            this.nombrePlaces = unNombre;
-            
-            this.lesEtapes = new List<Etape>();
-	    }
+        
         public MiniExcursion(int unNumero, string unLibelle, int unNombre, double unMontant)
         {
             this.numero = unNumero;

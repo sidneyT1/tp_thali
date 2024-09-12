@@ -13,14 +13,14 @@ namespace ClassThali.Tests
         [TestMethod()]
         public void GetNombrePlacesTest()
         {
-            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20);
+            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20, 2);
             Assert.AreEqual(20, ME.GetNombrePlaces(), "Le nombre de places maxi est de 20");
         }
 
         [TestMethod()]
         public void GetlesEtapesTest()
         {
-            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20);
+            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20, 2);
             Etape ET1 = new Etape(1, "Traversee aller", 10);
             Etape ET2 = new Etape(2, "Promenade sur l'ile", 60);
             Etape ET3 = new Etape(3, "Visite du phare", 30);
@@ -34,7 +34,7 @@ namespace ClassThali.Tests
         [TestMethod()]
         public void AjouteEtapeTest()
         {
-            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20);
+            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20, 2);
 
             ME.AjouteEtape("Traversee aller", 10);
             Assert.AreEqual(1, ME.GetlesEtapes().Count, "1 étape pour la ME");
@@ -48,7 +48,7 @@ namespace ClassThali.Tests
         [TestMethod()]
         public void DonneDureePrevueTest()
         {
-            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20);
+            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20, 2);
             Etape ET1 = new Etape(1, "Traversee aller", 10);
             Etape ET2 = new Etape(2, "Promenade sur l'ile", 60);
             Etape ET3 = new Etape(3, "Visite du phare", 30);
@@ -62,7 +62,7 @@ namespace ClassThali.Tests
         [TestMethod()]
         public void DonneDureePrevuehhmmTest()
         {
-            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20);
+            MiniExcursion ME = new MiniExcursion(1, "Visite de l'ile au large de THALI", 20, 2);
             Etape ET1 = new Etape(1, "Traversee aller", 10);
             Etape ET2 = new Etape(2, "Promenade sur l'ile", 60);
             Etape ET3 = new Etape(3, "Visite du phare", 30);

@@ -80,3 +80,14 @@ C:\Users\sidne\Desktop\tp_thali\ClassThaliTests\obj\Debug\ClassThaliTests.csproj
 C:\Users\sidne\Desktop\tp_thali\ClassThaliTests\obj\Debug\ClassThaliTests.csproj.CopyComplete
 C:\Users\sidne\Desktop\tp_thali\ClassThaliTests\obj\Debug\ClassThaliTests.dll
 C:\Users\sidne\Desktop\tp_thali\ClassThaliTests\obj\Debug\ClassThaliTests.pdb
+C:\Users\truchet\tp_thali\ClassThaliTests\bin\Debug\ClassThaliTests.dll
+C:\Users\truchet\tp_thali\ClassThaliTests\bin\Debug\ClassThaliTests.pdb
+C:\Users\truchet\tp_thali\ClassThaliTests\bin\Debug\ClassThali.dll
+C:\Users\truchet\tp_thali\ClassThaliTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\truchet\tp_thali\ClassThaliTests\bin\Debug\ClassThali.pdb
+C:\Users\truchet\tp_thali\ClassThaliTests\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\truchet\tp_thali\ClassThaliTests\obj\Debug\ClassThaliTests.csproj.AssemblyReference.cache
+C:\Users\truchet\tp_thali\ClassThaliTests\obj\Debug\ClassThaliTests.csproj.CoreCompileInputs.cache
+C:\Users\truchet\tp_thali\ClassThaliTests\obj\Debug\ClassThaliTests.csproj.CopyComplete
+C:\Users\truchet\tp_thali\ClassThaliTests\obj\Debug\ClassThaliTests.dll
+C:\Users\truchet\tp_thali\ClassThaliTests\obj\Debug\ClassThaliTests.pdb
